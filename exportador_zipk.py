@@ -9,7 +9,7 @@ ZIPKIN_URL = "http://10.10.2.211:30200/zipkin/api/v2/traces?serviceName=person.d
 RABBITMQ_HOST = "10.10.2.1"
 RABBITMQ_PORT = 5672
 RABBITMQ_USER = "gustavofb"
-RABBITMQ_PASS = "freitas213"
+RABBITMQ_PASS = "12345678"
 EXCHANGE_NAME = "zipkin_logs_exchange"  # exchange fanout
 
 def connect_rabbitmq():
