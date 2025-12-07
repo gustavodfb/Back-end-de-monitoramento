@@ -11,7 +11,7 @@ SCRAPE_INTERVAL = 5.0  # segundos entre coletas
 RABBITMQ_HOST = "10.10.2.1"
 RABBITMQ_PORT = 5672
 RABBITMQ_USER = "gustavofb"
-RABBITMQ_PASS = "freitas213"
+RABBITMQ_PASS = "12345678"
 EXCHANGE_NAME = "prometheus_logs_exchange"  # exchange fanout
 
 def connect_rabbitmq():
